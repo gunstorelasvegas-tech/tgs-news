@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Firearm Laws, ATF Policies, Bills &amp; Industry Feeds</title>
+    <dateCreated>Mon, 12 Oct 2026 12:00:00 GMT</dateCreated>
+    <docs>http://opml.org/spec2.opml</docs>
+  </head>
+  <body>
+    <outline text="🏛️ Federal &amp; ATF Regulations" title="🏛️ Federal &amp; ATF Regulations">
+      <outline type="rss" text="ATF - Federal Register (Official)" title="ATF - Federal Register (Official)" xmlUrl="https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=alcohol-tobacco-firearms-and-explosives-bureau" htmlUrl="https://www.federalregister.gov/agencies/alcohol-tobacco-firearms-and-explosives-bureau" description="Official US Government feed for ATF proposed rules, final regulations, and agency rulings" />
+      <outline type="rss" text="ATF Policy &amp; Rulemaking Tracker" title="ATF Policy &amp; Rulemaking Tracker" xmlUrl="https://news.google.com/rss/search?q=ATF+firearms+rule+OR+regulation+OR+policy+OR+ruling&amp;hl=en-US&amp;gl=US&amp;ceid=US:en" htmlUrl="https://www.atf.gov" description="Real-time coverage of ATF enforcement policies, DOJ directives, and regulatory changes" />
+    </outline>
+
+    <outline text="🛡️ Everyday Citizens &amp; Concealed Carry (USCCA)" title="🛡️ Everyday Citizens &amp; Concealed Carry (USCCA)">
+      <outline type="rss" text="USCCA Gun Laws &amp; Reciprocity Coverage" title="USCCA Gun Laws &amp; Reciprocity Coverage" xmlUrl="https://news.google.com/rss/search?q=site:usconcealedcarry.com&amp;hl=en-US&amp;gl=US&amp;ceid=US:en" htmlUrl="https://www.usconcealedcarry.com" description="U.S. Concealed Carry Association news, permit reciprocity, self-defense law guides, and citizen rights" />
+      <outline type="rss" text="USCCA Legal &amp; Second Amendment Forum" title="USCCA Legal &amp; Second Amendment Forum" xmlUrl="https://community.usconcealedcarry.com/c/legal-and-second-amendment/8.rss" htmlUrl="https://community.usconcealedcarry.com/c/legal-and-second-amendment/8" description="USCCA community and legal analysis discussions on self-defense court cases and regulations" />
+      <outline type="rss" text="Concealed Carry Inc - State Laws &amp; Alerts" title="Concealed Carry Inc - State Laws &amp; Alerts" xmlUrl="https://www.concealedcarry.com/feed/" htmlUrl="https://www.concealedcarry.com" description="State gun law updates, reciprocity agreements, interstate travel with firearms, and permitless carry legislation" />
+    </outline>
+
+    <outline text="🏭 Firearms Industry &amp; FFL Business" title="🏭 Firearms Industry &amp; FFL Business">
+      <outline type="rss" text="NSSF - Firearm Industry Trade Association" title="NSSF - Firearm Industry Trade Association" xmlUrl="https://www.nssf.org/feed/" htmlUrl="https://www.nssf.org" description="National Shooting Sports Foundation: the trade association for firearm manufacturers, distributors, retailers, and FFL compliance" />
+      <outline type="rss" text="Ammoland Shooting Sports News" title="Ammoland Shooting Sports News" xmlUrl="https://www.ammoland.com/feed/" htmlUrl="https://www.ammoland.com" description="In-depth reporting on the firearms industry, FFL audits, ATF compliance letters, manufacturing standards, and civil rights" />
+    </outline>
+
+    <outline text="⚖️ Court Decisions &amp; Legal Actions" title="⚖️ Court Decisions &amp; Legal Actions">
+      <outline type="rss" text="Firearms Policy Coalition (FPC)" title="Firearms Policy Coalition (FPC)" xmlUrl="https://www.firearmspolicy.org/news.rss" htmlUrl="https://www.firearmspolicy.org" description="Federal and Supreme Court litigation, preliminary injunctions, lawsuit briefings, and aggressive constitutional defense" />
+      <outline type="rss" text="Second Amendment Foundation (SAF)" title="Second Amendment Foundation (SAF)" xmlUrl="https://saf.org/feed/" htmlUrl="https://saf.org" description="Second Amendment legal foundation behind Heller, McDonald, and Bruen; federal appeals and state challenges" />
+    </outline>
+
+    <outline text="📜 Bills &amp; Legislative Alerts" title="📜 Bills &amp; Legislative Alerts">
+      <outline type="rss" text="Gun Owners of America (GOA)" title="Gun Owners of America (GOA)" xmlUrl="https://www.gunowners.org/feed/" htmlUrl="https://www.gunowners.org" description="Grassroots lobbying, federal and state legislative trackers, congressional voting records, and Second Amendment advocacy" />
+      <outline type="rss" text="Firearms Legislation &amp; Gun Bills Tracker" title="Firearms Legislation &amp; Gun Bills Tracker" xmlUrl="https://news.google.com/rss/search?q=firearm+legislation+OR+%22gun+bill%22+OR+%22Second+Amendment%22+congress+OR+statehouse&amp;hl=en-US&amp;gl=US&amp;ceid=US:en" htmlUrl="https://www.congress.gov" description="Real-time updates on firearm bills introduced, debated, or passed in Congress and state legislatures" />
+    </outline>
+
+    <outline text="📰 Policy Journalism &amp; Analysis" title="📰 Policy Journalism &amp; Analysis">
+      <outline type="rss" text="The Reload (Stephen Gutowski)" title="The Reload (Stephen Gutowski)" xmlUrl="https://thereload.com/feed/" htmlUrl="https://thereload.com" description="Non-partisan investigative reporting and deep-dive policy analysis on federal gun laws, politics, and the judiciary" />
+      <outline type="rss" text="Bearing Arms" title="Bearing Arms" xmlUrl="https://bearingarms.com/feed/" htmlUrl="https://bearingarms.com" description="Daily commentary and reporting on Second Amendment policy, court rulings, state legislation, and self-defense cases" />
+    </outline>
+  </body>
+</opml>

@@ -1,0 +1,166 @@
+{
+  "generated_at": "2026-10-13T20:46:28.613842+00:00",
+  "total_items": 741,
+  "sources": {
+    "atf_federal_register": {
+      "name": "ATF - Federal Register (Official)",
+      "category": "Regulatory",
+      "item_count": 4
+    },
+    "atf_gov": {
+      "name": "ATF.gov News & Press",
+      "category": "Regulatory",
+      "item_count": 36
+    },
+    "atf_policy_tracker": {
+      "name": "ATF Policy & Rulemaking Tracker",
+      "category": "Regulatory",
+      "item_count": 100
+    },
+    "nra_org": {
+      "name": "NRA (nra.org)",
+      "category": "NRA",
+      "item_count": 1
+    },
+    "nra_ila": {
+      "name": "NRA-ILA (Legislative)",
+      "category": "NRA",
+      "item_count": 34
+    },
+    "nra_blog": {
+      "name": "NRA Blog / America's 1st Freedom",
+      "category": "NRA",
+      "item_count": 3
+    },
+    "uscca_coverage": {
+      "name": "USCCA Gun Laws & Reciprocity",
+      "category": "Everyday / CCW",
+      "item_count": 100
+    },
+    "uscca_community_legal": {
+      "name": "USCCA Legal & 2A Discussions",
+      "category": "Everyday / CCW",
+      "item_count": 25
+    },
+    "concealed_carry_inc": {
+      "name": "Concealed Carry Inc",
+      "category": "Everyday / CCW",
+      "item_count": 50
+    },
+    "nssf_industry": {
+      "name": "NSSF - Industry Trade Association",
+      "category": "Industry / Business",
+      "item_count": 10
+    },
+    "ammoland_industry": {
+      "name": "Ammoland Shooting Sports News",
+      "category": "Industry / Business",
+      "item_count": 40
+    },
+    "fpc_litigation": {
+      "name": "Firearms Policy Coalition",
+      "category": "Legal & Rights",
+      "item_count": 20
+    },
+    "saf_court_cases": {
+      "name": "Second Amendment Foundation",
+      "category": "Legal & Rights",
+      "item_count": 10
+    },
+    "goa_legislation": {
+      "name": "Gun Owners of America",
+      "category": "Legislative / Bills",
+      "item_count": 10
+    },
+    "congress_firearm_bills": {
+      "name": "Firearms Legislation & Gun Bills Tracker",
+      "category": "Legislative / Bills",
+      "item_count": 78
+    },
+    "the_reload": {
+      "name": "The Reload",
+      "category": "Journalism & Analysis",
+      "item_count": 10
+    },
+    "bearing_arms": {
+      "name": "Bearing Arms",
+      "category": "Journalism & Analysis",
+      "item_count": 20
+    },
+    "mfr_glock": {
+      "name": "Glock (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 1
+    },
+    "mfr_sig": {
+      "name": "SIG Sauer (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 100
+    },
+    "mfr_smith_wesson": {
+      "name": "Smith & Wesson (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 100
+    },
+    "mfr_ruger": {
+      "name": "Ruger (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 4
+    },
+    "mfr_springfield": {
+      "name": "Springfield Armory (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 39
+    },
+    "mfr_colt": {
+      "name": "Colt (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 1
+    },
+    "mfr_remington": {
+      "name": "Remington (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 0
+    },
+    "mfr_mossberg": {
+      "name": "Mossberg (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 2
+    },
+    "mfr_beretta": {
+      "name": "Beretta USA (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 0
+    },
+    "mfr_taurus": {
+      "name": "Taurus (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 10
+    },
+    "mfr_daniel_defense": {
+      "name": "Daniel Defense (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 31
+    },
+    "mfr_henry": {
+      "name": "Henry Repeating Arms (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 36
+    },
+    "mfr_cz": {
+      "name": "CZ-USA (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 0
+    },
+    "mfr_fn": {
+      "name": "FN America (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 0
+    },
+    "mfr_new_products": {
+      "name": "New Firearm Product Releases",
+      "category": "Manufacturers",
+      "item_count": 1
+    }
+  }
+}
