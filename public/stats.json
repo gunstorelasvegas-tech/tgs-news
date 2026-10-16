@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-13T20:46:28.613842+00:00",
-  "total_items": 741,
+  "generated_at": "2026-10-16T06:33:00.664020+00:00",
+  "total_items": 1278,
   "sources": {
     "atf_federal_register": {
       "name": "ATF - Federal Register (Official)",
@@ -10,7 +10,7 @@
     "atf_gov": {
       "name": "ATF.gov News & Press",
       "category": "Regulatory",
-      "item_count": 36
+      "item_count": 39
     },
     "atf_policy_tracker": {
       "name": "ATF Policy & Rulemaking Tracker",
@@ -20,12 +20,12 @@
     "nra_org": {
       "name": "NRA (nra.org)",
       "category": "NRA",
-      "item_count": 1
+      "item_count": 3
     },
     "nra_ila": {
       "name": "NRA-ILA (Legislative)",
       "category": "NRA",
-      "item_count": 34
+      "item_count": 38
     },
     "nra_blog": {
       "name": "NRA Blog / America's 1st Freedom",
@@ -75,7 +75,7 @@
     "congress_firearm_bills": {
       "name": "Firearms Legislation & Gun Bills Tracker",
       "category": "Legislative / Bills",
-      "item_count": 78
+      "item_count": 79
     },
     "the_reload": {
       "name": "The Reload",
@@ -90,32 +90,32 @@
     "mfr_glock": {
       "name": "Glock (Manufacturer)",
       "category": "Manufacturers",
-      "item_count": 1
+      "item_count": 12
     },
     "mfr_sig": {
       "name": "SIG Sauer (Manufacturer)",
       "category": "Manufacturers",
-      "item_count": 100
+      "item_count": 12
     },
     "mfr_smith_wesson": {
       "name": "Smith & Wesson (Manufacturer)",
       "category": "Manufacturers",
-      "item_count": 100
+      "item_count": 8
     },
     "mfr_ruger": {
       "name": "Ruger (Manufacturer)",
       "category": "Manufacturers",
-      "item_count": 4
+      "item_count": 12
     },
     "mfr_springfield": {
       "name": "Springfield Armory (Manufacturer)",
       "category": "Manufacturers",
-      "item_count": 39
+      "item_count": 12
     },
     "mfr_colt": {
       "name": "Colt (Manufacturer)",
       "category": "Manufacturers",
-      "item_count": 1
+      "item_count": 11
     },
     "mfr_remington": {
       "name": "Remington (Manufacturer)",
@@ -125,7 +125,7 @@
     "mfr_mossberg": {
       "name": "Mossberg (Manufacturer)",
       "category": "Manufacturers",
-      "item_count": 2
+      "item_count": 12
     },
     "mfr_beretta": {
       "name": "Beretta USA (Manufacturer)",
@@ -135,32 +135,342 @@
     "mfr_taurus": {
       "name": "Taurus (Manufacturer)",
       "category": "Manufacturers",
-      "item_count": 10
+      "item_count": 12
     },
     "mfr_daniel_defense": {
       "name": "Daniel Defense (Manufacturer)",
       "category": "Manufacturers",
-      "item_count": 31
+      "item_count": 12
     },
     "mfr_henry": {
       "name": "Henry Repeating Arms (Manufacturer)",
       "category": "Manufacturers",
-      "item_count": 36
+      "item_count": 12
     },
     "mfr_cz": {
       "name": "CZ-USA (Manufacturer)",
       "category": "Manufacturers",
-      "item_count": 0
+      "item_count": 2
     },
     "mfr_fn": {
       "name": "FN America (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 12
+    },
+    "mfr_bad": {
+      "name": "Battle Arms Development (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 12
+    },
+    "mfr_wilson": {
+      "name": "Wilson Combat (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 9
+    },
+    "mfr_psa": {
+      "name": "Palmetto State Armory (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 12
+    },
+    "mfr_aero": {
+      "name": "Aero Precision (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 10
+    },
+    "mfr_geissele": {
+      "name": "Geissele Automatics (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 9
+    },
+    "mfr_lwrc": {
+      "name": "LWRC International (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 12
+    },
+    "mfr_barrett": {
+      "name": "Barrett Firearms (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 0
+    },
+    "mfr_kimber": {
+      "name": "Kimber (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 12
+    },
+    "mfr_walther": {
+      "name": "Walther Arms (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 12
+    },
+    "mfr_hk": {
+      "name": "Heckler & Koch (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 12
+    },
+    "mfr_canik": {
+      "name": "Canik (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 0
+    },
+    "mfr_savage": {
+      "name": "Savage Arms (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 12
+    },
+    "mfr_browning": {
+      "name": "Browning (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 12
+    },
+    "mfr_winchester": {
+      "name": "Winchester (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 12
+    },
+    "mfr_federal": {
+      "name": "Federal Ammunition (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 12
+    },
+    "mfr_hornady": {
+      "name": "Hornady (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 12
+    },
+    "mfr_magpul": {
+      "name": "Magpul (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 12
+    },
+    "mfr_silencerco": {
+      "name": "SilencerCo (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 12
+    },
+    "mfr_deadair": {
+      "name": "Dead Air Armament (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 12
+    },
+    "mfr_bcm": {
+      "name": "Bravo Company (BCM) (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 12
+    },
+    "mfr_staccato": {
+      "name": "Staccato (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 12
+    },
+    "mfr_benelli": {
+      "name": "Benelli USA (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 12
+    },
+    "mfr_armscor": {
+      "name": "Armscor / Rock Island (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 12
+    },
+    "mfr_stag": {
+      "name": "Stag Arms (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 12
+    },
+    "mfr_radian": {
+      "name": "Radian Weapons (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 12
+    },
+    "mfr_strike": {
+      "name": "Strike Industries (Manufacturer)",
+      "category": "Manufacturers",
+      "item_count": 9
+    },
+    "mfr_ata": {
+      "name": "Tisas / Canik / Turkish makers (Manufacturer)",
       "category": "Manufacturers",
       "item_count": 0
     },
     "mfr_new_products": {
       "name": "New Firearm Product Releases",
       "category": "Manufacturers",
+      "item_count": 2
+    },
+    "yt_zr49esl2": {
+      "name": "NRA (YouTube)",
+      "category": "Videos",
+      "item_count": 15
+    },
+    "yt_is5dyb9n": {
+      "name": "NSSF (YouTube)",
+      "category": "Videos",
+      "item_count": 0
+    },
+    "yt_nrzmjk2r": {
+      "name": "The Reload (YouTube)",
+      "category": "Videos",
+      "item_count": 0
+    },
+    "yt_3cfc922p": {
+      "name": "Washington Gun Law (YouTube)",
+      "category": "Videos",
+      "item_count": 15
+    },
+    "yt_fj2k2guj": {
+      "name": "Gun Owners of America (YouTube)",
+      "category": "Videos",
+      "item_count": 15
+    },
+    "yt_yolhfqhq": {
+      "name": "Second Amendment Foundation (YouTube)",
+      "category": "Videos",
+      "item_count": 15
+    },
+    "yt_vb3solmh": {
+      "name": "hickok45 (YouTube)",
+      "category": "Videos",
+      "item_count": 15
+    },
+    "yt_0rbtqiyl": {
+      "name": "Garand Thumb (YouTube)",
+      "category": "Videos",
+      "item_count": 15
+    },
+    "yt_z-qxagok": {
+      "name": "Military Arms Channel (YouTube)",
+      "category": "Videos",
+      "item_count": 15
+    },
+    "yt_bvc7pmup": {
+      "name": "Demolition Ranch (YouTube)",
+      "category": "Videos",
+      "item_count": 15
+    },
+    "yt_rfkgpvbe": {
+      "name": "Forgotten Weapons (YouTube)",
+      "category": "Videos",
+      "item_count": 15
+    },
+    "yt_nkbs5xff": {
+      "name": "TFB TV (YouTube)",
+      "category": "Videos",
+      "item_count": 15
+    },
+    "yt_znxfc7lt": {
+      "name": "Lucky Gunner (YouTube)",
+      "category": "Videos",
+      "item_count": 15
+    },
+    "yt_193r5yxc": {
+      "name": "Colion Noir (YouTube)",
+      "category": "Videos",
+      "item_count": 15
+    },
+    "yt_o0paiev5": {
+      "name": "Rifleshooter (YouTube)",
+      "category": "Videos",
+      "item_count": 5
+    },
+    "yt_b9vd88c2": {
+      "name": "Guns and Gear (YouTube)",
+      "category": "Videos",
+      "item_count": 0
+    },
+    "yt_kiu1yhwd": {
+      "name": "GunBlog TV (YouTube)",
+      "category": "Videos",
+      "item_count": 3
+    },
+    "yt_rzwp5grn": {
+      "name": "Shooting Illustrated (YouTube)",
+      "category": "Videos",
+      "item_count": 15
+    },
+    "yt_4tk23mf2": {
+      "name": "Brownells (YouTube)",
+      "category": "Videos",
+      "item_count": 15
+    },
+    "yt_vykbbrxe": {
+      "name": "MidwayUSA (YouTube)",
+      "category": "Videos",
+      "item_count": 15
+    },
+    "yt_gbggyk37": {
+      "name": "Glock (YouTube)",
+      "category": "Videos",
       "item_count": 1
+    },
+    "yt_9ge9rpet": {
+      "name": "Ruger (YouTube)",
+      "category": "Videos",
+      "item_count": 15
+    },
+    "yt_2omxru6e": {
+      "name": "CZ-USA (YouTube)",
+      "category": "Videos",
+      "item_count": 2
+    },
+    "yt_-y0qnnnu": {
+      "name": "Daniel Defense (YouTube)",
+      "category": "Videos",
+      "item_count": 15
+    },
+    "yt_qap1yyqx": {
+      "name": "FN America (YouTube)",
+      "category": "Videos",
+      "item_count": 5
+    },
+    "yt__ctfsvpl": {
+      "name": "Palmetto State Armory (YouTube)",
+      "category": "Videos",
+      "item_count": 0
+    },
+    "yt_uimpdkcm": {
+      "name": "SilencerCo (YouTube)",
+      "category": "Videos",
+      "item_count": 15
+    },
+    "yt_rmrftjsm": {
+      "name": "Magpul (YouTube)",
+      "category": "Videos",
+      "item_count": 15
+    },
+    "yt_0yrggaaw": {
+      "name": "Hornady (YouTube)",
+      "category": "Videos",
+      "item_count": 15
+    },
+    "yt_g4ykj4dv": {
+      "name": "Barrett (YouTube)",
+      "category": "Videos",
+      "item_count": 0
+    },
+    "yt_xogbclo-": {
+      "name": "Battle Arms Development (YouTube)",
+      "category": "Videos",
+      "item_count": 0
+    },
+    "yt_z4jd8v8i": {
+      "name": "Aero Precision (YouTube)",
+      "category": "Videos",
+      "item_count": 15
+    },
+    "yt__i0ionpp": {
+      "name": "Staccato (YouTube)",
+      "category": "Videos",
+      "item_count": 15
+    },
+    "yt_lkfr-td8": {
+      "name": "Kimber (YouTube)",
+      "category": "Videos",
+      "item_count": 15
+    },
+    "yt_rmtr5afe": {
+      "name": "Walther (YouTube)",
+      "category": "Videos",
+      "item_count": 15
     }
   }
 }

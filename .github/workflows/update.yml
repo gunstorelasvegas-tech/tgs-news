@@ -24,6 +24,8 @@ jobs:
         with:
           python-version: "3.12"
       - name: Build fresh feed.json
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: python update_feed.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
