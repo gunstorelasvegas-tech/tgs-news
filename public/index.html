@@ -53,7 +53,10 @@
   .new { background:var(--red); color:#fff; font-size:.65rem; font-weight:700; padding:1px 6px; border-radius:4px; margin-right:6px; vertical-align:middle; }
   .empty, .err { grid-column:1/-1; text-align:center; color:var(--mute); padding:40px; }
   button.more { grid-column:1/-1; justify-self:center; padding:10px 24px; border-radius:8px; border:0; background:var(--red); color:#fff; font-weight:700; cursor:pointer; font:inherit; font-weight:700; }
+  .pager { grid-column:1/-1; display:flex; justify-content:center; align-items:center; gap:16px; color:var(--mute); }
+  button.more:disabled { opacity:.35; cursor:default; }
   button.more:hover { filter:brightness(1.1); }
+.compact .controls, .compact .chips { display:none; }
 </style>
 </head>
 <body>
@@ -81,8 +84,11 @@
 
 <script src="tgs-thumb.js"></script>
 <script>
-const PAGE = 36;
-let data = null, cat = "", shown = PAGE;
+const PAGE = 6;   // articles shown at a time; "Load more" adds this many
+// Embed mode: ?limit=6 shows only the newest 6 posts (no filters, no Load more)
+const LIMIT = Math.max(0, parseInt(new URLSearchParams(location.search).get("limit"), 10) || 0);
+document.body.classList.toggle("compact", !!LIMIT);
+let data = null, cat = "", page = 0;
 const $ = id => document.getElementById(id);
 
 
@@ -107,13 +113,14 @@ async function load() {
 }
 
 function render() {
-  const q = $("q").value.toLowerCase().trim(), s = $("src").value, days = +$("range").value;
+  const q = $("q").value.toLowerCase().trim(), s = $("src").value, days = LIMIT ? 0 : +$("range").value;
   const cutoff = days ? Date.now()/1000 - days*86400 : 0;
   const items = data.items.filter(i =>
     (!cat || i.category === cat) && (!s || i.source_id === s) && i.timestamp >= cutoff &&
     (!q || (i.title + " " + i.summary + " " + i.source_name).toLowerCase().includes(q)));
   const out = []; let lastDay = "";
-  items.slice(0, shown).forEach(i => {
+  const pages = Math.max(1, Math.ceil(items.length / PAGE)); if (page >= pages) page = pages - 1;
+  items.slice(LIMIT ? 0 : page*PAGE, LIMIT || (page+1)*PAGE).forEach(i => {
     const d = new Date(i.timestamp*1000), day = d.toDateString();
     if (day !== lastDay) { out.push(`<h3 class="day">${day === new Date().toDateString() ? "Today" : d.toLocaleDateString(undefined,{weekday:"long",month:"long",day:"numeric",year:"numeric"})}</h3>`); lastDay = day; }
     const fresh = Date.now()/1000 - i.timestamp < 6*3600;
@@ -124,14 +131,14 @@ function render() {
       ${i.summary ? `<p class="sum">${esc(i.summary)}</p>` : ""}</article>`);
   });
   if (!items.length) out.push('<div class="empty">No articles match.</div>');
-  if (items.length > shown) out.push(`<button class="more" onclick="shown+=PAGE;render()">Load more (${items.length - shown} left)</button>`);
+  if (!LIMIT && items.length > PAGE) out.push(`<div class="pager"><button class="more" ${page?"":"disabled"} onclick="page--;render();scrollTo(0,0)">&larr; Newer</button><span>Page ${page+1} of ${pages}</span><button class="more" ${page+1<pages?"":"disabled"} onclick="page++;render();scrollTo(0,0)">Older &rarr;</button></div>`);
   $("list").innerHTML = out.join("");
 }
 
-["q","src","range"].forEach(id => $(id).addEventListener("input", () => { shown = PAGE; render(); }));
+["q","src","range"].forEach(id => $(id).addEventListener("input", () => { page = 0; render(); }));
 $("chips").addEventListener("click", e => {
   const b = e.target.closest(".chip"); if (!b) return;
-  cat = b.dataset.c; shown = PAGE;
+  cat = b.dataset.c; page = 0;
   document.querySelectorAll(".chip").forEach(c => c.classList.toggle("on", c === b));
   render();
 });
